@@ -1,0 +1,23 @@
+Problem 1:
+	
+The first console.log will print Tesla, but the second one will throw an error because it's destructuring from null or undefined.
+
+
+Problem 2:
+
+I think for these two, the console.log will produce the same name because one calls it directly and the other calls it from the new name "otherName" that was created.
+
+
+Problem 3:
+
+console.log(hashePassword) does not need a variable since it is not part of a list and therefore will throw an error. However, console.log(password) will print '12345'.
+
+
+Problem 4:
+
+The first console.log should create a false response because it's using double "=" sign, and so [2] is not equal to [5], but [2] is equal to [2]. Therefore, (first == third) will produce a true statement.
+
+
+Problem 5:
+
+Key will print 'value'. I think secondKey will print the whole array list. secondKey[0] should print 1. The last console.log should print 5.
