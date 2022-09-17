@@ -11,9 +11,11 @@
 }
 
 .boxes {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
+    display: inline-block;
+    margin: 0 20px;
 }
 
 .box-object {

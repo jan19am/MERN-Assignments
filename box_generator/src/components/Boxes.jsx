@@ -25,7 +25,7 @@ const Boxes = (props) => {
             {boxes.map((boxColor, index) => {
                 return (
                     <div className="boxes" key={ index }>
-                        <p className="box-object" style={{backgroundColor: boxColor}}></p>
+                        <div className="box-object" style={{backgroundColor: boxColor}}></div>
                     </div>
                 );
             })}
