@@ -3,7 +3,7 @@ const JokeController = require('../controllers/jokes.controller');
 const { 
     findAllJokes, 
     findOneSingleJoke,
-    createNewJoke,
+    createNewJoke, 
     updateExistingJoke,
     deleteAnExistingJoke
 }
